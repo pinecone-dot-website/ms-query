@@ -1,0 +1,21 @@
+{
+    "name": "pinecone-dot-website/ms-query",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Eric Eaglstun",
+            "email": "postpostmodern@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "Pinecone\\": "lib/Pinecone/"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "~1.0"
+    }
+}
