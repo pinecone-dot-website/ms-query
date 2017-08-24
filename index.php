@@ -1,24 +1,14 @@
 <?php
 
-namespace Pinecone;
+namespace MS_Query;
 
-/**
-*       PSR-4
-*       @param string
-*/
-function autoload($class)
-{
-    if (strpos($class, __NAMESPACE__) !== 0) {
-        return;
-    }
-
-    $file = __DIR__ .'/lib/'. str_replace('\\', '/', $class) . '.php';
-
-    if (file_exists($file)) {
-        require $file;
-    }
+if (file_exists(__DIR__.'/vendor/autoload.php')) {
+    require __DIR__.'/vendor/autoload.php';
 }
-spl_autoload_register( __NAMESPACE__.'\autoload' );
+
+if (!function_exists('/MS_Query/version')) {
+    require __DIR__.'/autoload.php';
+}
 
 add_action( 'plugins_loaded', function () {
     //new MS_Query;

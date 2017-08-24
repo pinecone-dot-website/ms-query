@@ -1,6 +1,6 @@
 <?php
 
-namespace Pinecone;
+namespace MS_Query;
 
 /**
 *   proof of concept for qurying multiple blogs in a multisite install
