@@ -6,7 +6,7 @@ if (file_exists(__DIR__.'/vendor/autoload.php')) {
     require __DIR__.'/vendor/autoload.php';
 }
 
-if (!function_exists('/MS_Query/version')) {
+if (!function_exists('\MS_Query\version')) {
     require __DIR__.'/autoload.php';
 }
 

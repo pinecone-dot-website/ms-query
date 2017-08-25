@@ -1,5 +1,7 @@
 <?php
 
+// this file should only be included if the composer autoload is not used
+
 namespace MS_Query;
 
 require __DIR__.'/functions.php';
