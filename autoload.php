@@ -2,6 +2,8 @@
 
 namespace MS_Query;
 
+require __DIR__.'/functions.php';
+
 /**
 *       PSR-4
 *       @param string

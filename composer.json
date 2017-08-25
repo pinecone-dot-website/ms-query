@@ -13,7 +13,7 @@
             "functions.php"
         ],
         "psr-4": {
-            "Pinecone\\": "lib/Pinecone/"
+            "MS_Query\\": "lib/MS_Query/"
         }
     },
     "require": {
